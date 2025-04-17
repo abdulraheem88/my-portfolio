@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio - About</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+	<header class="header">
+		<a href="#" class="logo">Port<span>folio.</span></a>
+		<div id="menu-toggle" class="menu-toggle">☰</div>
+		<nav class="navbar" id="navbar">
+		  <a href="index.html" style="--i:1">Home</a>
+		  <a href="about.html" style="--i:2; color: #0ef;">About</a>
+		  <a href="services.html" style="--i:3">Services</a>
+		  <a href="portfolio.html" style="--i:4">Portfolio</a>
+		  <a href="contact.html" style="--i:5">Contact</a>
+		</nav>
+	</header>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="imgs/img-main-page.png" alt="Profile Image" style="width: 100%; max-width: 400px; border-radius: 50%;" />
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span style="color: red;">Me</span></h2>
+      <h3>MERN Stack Developer & <strong style="color: red;">SEO Associate</strong></h3>
+      <p>
+        I have 1 year of experience in web development, working with technologies like HTML, CSS, JavaScript, Bootstrap, React, Node.js, Express, and MongoDB.
+        Recently, I’ve started my journey into the world of SEO and was selected for an internship. I am now proudly working as an SEO Associate, learning and practicing On-Page SEO, Off-Page SEO, and Technical SEO to help websites rank better and grow online.
+      </p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- <footer class="footer">
+    <div class="footer-text">
+      <p>&copy; 2025 by Abdul Raheem | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#about"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    </div>
+  </footer> -->
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navbar').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

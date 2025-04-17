@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="portfolio.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header class="header">
+		<a href="#" class="logo">Port<span>folio.</span></a>
+		<div id="menu-toggle" class="menu-toggle">☰</div>
+		<nav class="navbar" id="navbar">
+		  <a href="index.html" style="--i:1">Home</a>
+		  <a href="about.html" style="--i:2;">About</a>
+		  <a href="services.html" style="--i:3">Services</a>
+		  <a href="portfolio.html" style="--i:4 ; color: #0ef;">Portfolio</a>
+		  <a href="contact.html" style="--i:5">Contact</a>
+		</nav>
+	</header>
+
+	<section class="portfolio" id="portfolio">
+		<h2 class="heading">Latest <span style="color: red;">Projects</span></h2>
+		<div class="portfolio-container">
+			<!-- Project Box Template -->
+			<div class="portfolio-box">
+				<img src="imgs/agency-site-project-img.png" alt="Agency Website">
+				<div class="portfolio-layer">
+					<h4>Frontend Agency Website</h4>
+					<p>We craft modern, responsive, and user-friendly frontend websites tailored to your brand.</p>
+					<a href="https://abdulraheem88.github.io/NavXperience/" target="_blank"><i class="fa fa-external-link"></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="imgs/weather-app.png" alt="Weather App">
+				<div class="portfolio-layer">
+					<h4>Weather App</h4>
+					<p>Real-time weather updates using Fetch API with a sleek HTML, CSS, and JS interface.</p>
+					<a href="https://abdulraheem88.github.io/Responsive-Weather-App/" target="_blank"><i class="fa fa-external-link"></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="imgs/whatsapp-group-chat-app.png" alt="WhatsApp Clone">
+				<div class="portfolio-layer">
+					<h4>WhatsApp Group Chat App</h4>
+					<p>WhatsApp group chat UI built with HTML, CSS, JS, and real-time socket features.</p>
+					<a href="https://chat-app-beta-dun.vercel.app/" target="_blank"><i class="fa fa-external-link"></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="imgs/fifa-football-website-project.png" alt="FIFA Site">
+				<div class="portfolio-layer">
+					<h4>FIFA Football Website</h4>
+					<p>A FIFA-themed football site with HTML, CSS, and Bootstrap.</p>
+					<a href="https://abdulraheem88.github.io/football-website/" target="_blank"><i class="fa fa-external-link"></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="imgs/react-app.png" alt="TextUtils">
+				<div class="portfolio-layer">
+					<h4>TextUtils App</h4>
+					<p>A React-based Text Utility app for analyzing, formatting, and cleaning text.</p>
+					<a href="https://abdulraheem88.github.io/text-utils/" target="_blank"><i class="fa fa-external-link"></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="imgs/responsive-fifa-website-projct.png" alt="JS Football">
+				<div class="portfolio-layer">
+					<h4>JS Football Project</h4>
+					<p>Football web app with player search, rankings, and responsive sections using JS.</p>
+					<a href="https://abdulraheem88.github.io/bootstrap-football-website/" target="_blank"><i class="fa fa-external-link"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <footer class="footer">
+		<div class="footer-text">
+			<p>Copyright &copy; 2025 by Abdul - Raheem | All Rights Reserved.</p>
+		</div>
+		<div class="footer-iconTop">
+			<a href="#"><i class="fa fa-arrow-up"></i></a>
+		</div>
+	</footer> -->
+
+	<script>
+		// Hamburger menu toggle script
+		document.getElementById('menu-toggle').addEventListener('click', () => {
+			document.getElementById('navbar').classList.toggle('active');
+		});
+	</script>
+</body>
+</html>
